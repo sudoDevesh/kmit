@@ -15,9 +15,9 @@
     "url": "git+https://github.com/sudoDevesh/kmit.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/kmit/issues"
+    "url": "https://github.com/sudoDevesh/kmit/issues"
   },
-  "homepage": "https://github.com/yourusername/kmit#readme",
+  "homepage": "https://github.com/sudoDevesh/kmit#readme",
   "scripts": {
     "build": "tsc",
     "dev": "ts-node src/index.ts",
@@ -55,6 +55,6 @@
     "developer-tools",
     "git-helpers"
   ],
-  "author": "Your Name",
+  "author": "Devesh Korde",
   "license": "MIT"
 }
