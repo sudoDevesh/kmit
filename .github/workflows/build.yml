@@ -20,3 +20,5 @@ jobs:
 
       - name: Build root package
         run: npm run build
+      - name: Run tests
+        run: npm test
