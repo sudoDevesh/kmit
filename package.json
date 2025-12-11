@@ -1,0 +1,60 @@
+{
+  "name": "kmit",
+  "version": "1.0.0",
+  "description": "Git automation CLI to suggest branch names, manage commits, and streamline workflow",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "kmit": "./dist/index.js"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudoDevesh/kmit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/kmit/issues"
+  },
+  "homepage": "https://github.com/yourusername/kmit#readme",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "prepublishOnly": "npm run build",
+    "start": "node dist/index.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "files": [
+    "dist",
+    "src",
+    "package.json",
+    "README.md"
+  ],
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "commander": "^14.0.2",
+    "inquirer": "^13.0.2",
+    "simple-git": "^3.30.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "git",
+    "commit",
+    "cli",
+    "automation",
+    "branch-names",
+    "workflow",
+    "developer-tools",
+    "git-helpers"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
