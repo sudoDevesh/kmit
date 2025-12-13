@@ -1,5 +1,5 @@
 {
-  "name": "kmit",
+  "name": "@sudodevesh/kmit",
   "version": "1.0.0",
   "main": "dist/index.js",
   "bin": {

@@ -1,3 +1,4 @@
+
 # kmit 🚀
 
 **kmit** is a Git automation CLI that helps developers work faster by suggesting smart branch names, generating meaningful commit messages, and streamlining everyday Git workflows through an interactive terminal experience.
@@ -41,11 +42,13 @@ git --version
 
 ## 📥 Installation
 
+
 Install globally from npm:
 
 ```bash
-npm install -g kmit
+npm install -g @sudodevesh/kmit
 ```
+
 
 Verify installation:
 
@@ -82,6 +85,7 @@ kmit --help
 ---
 
 ## ▶️ Usage
+
 
 Run kmit inside a Git repository:
 
