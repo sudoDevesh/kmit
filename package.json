@@ -1,5 +1,5 @@
 {
-  "name": "@sudodevesh/kmit",
+  "name": "kmmit",
   "version": "1.0.1",
   "description": "CLI tool for automated git commits and branch naming with GitHub Copilot",
   "main": "dist/index.js",

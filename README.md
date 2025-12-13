@@ -46,7 +46,7 @@ git --version
 Install globally from npm:
 
 ```bash
-npm install -g @sudodevesh/kmit
+npm install -g kmmit
 ```
 
 
