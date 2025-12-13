@@ -1,12 +1,14 @@
 {
   "name": "@sudodevesh/kmit",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "description": "CLI tool for automated git commits and branch naming with GitHub Copilot",
   "main": "dist/index.js",
   "bin": {
     "kmit": "dist/index.js"
   },
-   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "repository": {
     "type": "git",
@@ -19,7 +21,6 @@
   },
   "files": [
     "dist",
-    "src",
     "package.json",
     "README.md"
   ],
@@ -42,7 +43,8 @@
   "engines": {
     "node": ">=18"
   },
-  "author": "Your Name",
+  "preferGlobal": true,
+  "author": "Devesh Korde",
   "license": "MIT",
   "dependencies": {
     "chalk": "^5.6.2",
